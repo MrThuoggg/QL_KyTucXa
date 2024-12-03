@@ -40,30 +40,27 @@
             // 
             // button1
             // 
-            button1.Location = new Point(173, 76);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Location = new Point(222, 106);
             button1.Name = "button1";
-            button1.Size = new Size(73, 65);
+            button1.Size = new Size(94, 91);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(339, 76);
-            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Location = new Point(436, 106);
             button2.Name = "button2";
-            button2.Size = new Size(73, 65);
+            button2.Size = new Size(94, 91);
             button2.TabIndex = 1;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(510, 76);
-            button3.Margin = new Padding(2, 2, 2, 2);
+            button3.Location = new Point(656, 106);
             button3.Name = "button3";
-            button3.Size = new Size(73, 65);
+            button3.Size = new Size(94, 91);
             button3.TabIndex = 2;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
@@ -71,18 +68,18 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(54, 251);
-            dataGridView1.Margin = new Padding(2, 2, 2, 2);
+            dataGridView1.Location = new Point(69, 351);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(233, 134);
+            dataGridView1.Size = new Size(300, 188);
             dataGridView1.TabIndex = 3;
             // 
             // button4
             // 
-            button4.Location = new Point(506, 245);
+            button4.Location = new Point(651, 343);
+            button4.Margin = new Padding(4, 4, 4, 4);
             button4.Name = "button4";
-            button4.Size = new Size(177, 143);
+            button4.Size = new Size(228, 200);
             button4.TabIndex = 4;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
@@ -90,24 +87,24 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(350, 251);
-            comboBox1.Margin = new Padding(2, 2, 2, 2);
+            comboBox1.Location = new Point(450, 351);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(118, 23);
+            comboBox1.Size = new Size(151, 29);
             comboBox1.TabIndex = 5;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(205, 169);
+            dateTimePicker1.Location = new Point(588, 264);
+            dateTimePicker1.Margin = new Padding(4, 4, 4, 4);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(227, 23);
+            dateTimePicker1.Size = new Size(291, 29);
             dateTimePicker1.TabIndex = 6;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(772, 454);
+            ClientSize = new Size(993, 636);
             Controls.Add(dateTimePicker1);
             Controls.Add(comboBox1);
             Controls.Add(button4);
@@ -115,7 +112,6 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
