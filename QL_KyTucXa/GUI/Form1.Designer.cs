@@ -37,12 +37,13 @@
             dateTimePicker1 = new DateTimePicker();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
+            listView1 = new ListView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(222, 106);
+            button1.Location = new Point(223, 101);
             button1.Name = "button1";
             button1.Size = new Size(94, 91);
             button1.TabIndex = 0;
@@ -105,7 +106,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(56, 165);
+            checkBox1.Location = new Point(69, 160);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(105, 25);
             checkBox1.TabIndex = 7;
@@ -115,18 +116,27 @@
             // checkBox2
             // 
             checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(56, 106);
+            checkBox2.Location = new Point(69, 101);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new Size(105, 25);
             checkBox2.TabIndex = 8;
             checkBox2.Text = "checkBox2";
             checkBox2.UseVisualStyleBackColor = true;
             // 
+            // listView1
+            // 
+            listView1.Location = new Point(69, 210);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(300, 121);
+            listView1.TabIndex = 9;
+            listView1.UseCompatibleStateImageBehavior = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(993, 636);
+            Controls.Add(listView1);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(dateTimePicker1);
@@ -154,5 +164,6 @@
         private DateTimePicker dateTimePicker1;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
+        private ListView listView1;
     }
 }
