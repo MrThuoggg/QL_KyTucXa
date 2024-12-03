@@ -31,11 +31,13 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(229, 216);
+            button1.Location = new Point(223, 107);
             button1.Name = "button1";
             button1.Size = new Size(94, 91);
             button1.TabIndex = 0;
@@ -44,7 +46,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(442, 216);
+            button2.Location = new Point(436, 107);
             button2.Name = "button2";
             button2.Size = new Size(94, 91);
             button2.TabIndex = 1;
@@ -53,23 +55,34 @@
             // 
             // button3
             // 
-            button3.Location = new Point(662, 216);
+            button3.Location = new Point(656, 107);
             button3.Name = "button3";
             button3.Size = new Size(94, 91);
             button3.TabIndex = 2;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(70, 351);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(300, 188);
+            dataGridView1.TabIndex = 3;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(993, 636);
+            Controls.Add(dataGridView1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -78,5 +91,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private DataGridView dataGridView1;
     }
 }
