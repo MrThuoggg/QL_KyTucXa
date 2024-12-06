@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DAO\" />
     <Folder Include="BUS\" />
     <Folder Include="DTO\" />
   </ItemGroup>
