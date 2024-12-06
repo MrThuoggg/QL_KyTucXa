@@ -16,5 +16,11 @@ namespace QL_KyTucXa.GUI
         {
             InitializeComponent();
         }
+
+        private void Form_QLNhanVien_Load(object sender, EventArgs e)
+        {
+            //test commit
+
+        }
     }
 }
