@@ -24,7 +24,7 @@ namespace QL_KyTucXa.GUI
 
         private void Form_DKPhong_Load(object sender, EventArgs e)
         {
-            /*BBBBBBB*/
+            /*aaaaaaaa*/
         }
     }
 }
