@@ -269,6 +269,7 @@
             Controls.Add(label1);
             Name = "Form_DKPhong";
             Text = "Form_DKPhong";
+            Load += Form_DKPhong_Load;
             ((System.ComponentModel.ISupportInitialize)dgdanhsach).EndInit();
             ResumeLayout(false);
             PerformLayout();
