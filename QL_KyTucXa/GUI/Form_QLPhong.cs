@@ -16,5 +16,10 @@ namespace QL_KyTucXa.GUI
         {
             InitializeComponent();
         }
+
+        private void Form_QLPhong_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

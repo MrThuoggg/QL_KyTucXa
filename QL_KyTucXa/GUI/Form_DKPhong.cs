@@ -26,5 +26,10 @@ namespace QL_KyTucXa.GUI
         {
             /*aaaaaaaa*/
         }
+
+        private void Form_DKPhong_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

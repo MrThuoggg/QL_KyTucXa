@@ -37,6 +37,7 @@
             ClientSize = new Size(1188, 692);
             Name = "Form_DKPhong";
             Text = "Form_DKPhong";
+            Load += Form_DKPhong_Load_1;
             ResumeLayout(false);
         }
 

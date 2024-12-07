@@ -37,6 +37,7 @@
             ClientSize = new Size(1188, 692);
             Name = "Form_QLPhong";
             Text = "Form_QLPhong";
+            Load += Form_QLPhong_Load;
             ResumeLayout(false);
         }
 
