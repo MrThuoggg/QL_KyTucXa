@@ -42,9 +42,9 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(246, 123);
+            checkBox1.Location = new Point(277, 129);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(101, 24);
+            checkBox1.Size = new Size(105, 25);
             checkBox1.TabIndex = 0;
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
@@ -52,9 +52,9 @@
             // checkBox2
             // 
             checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(246, 177);
+            checkBox2.Location = new Point(277, 186);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(101, 24);
+            checkBox2.Size = new Size(105, 25);
             checkBox2.TabIndex = 1;
             checkBox2.Text = "checkBox2";
             checkBox2.UseVisualStyleBackColor = true;
@@ -62,16 +62,16 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(388, 173);
+            comboBox1.Location = new Point(436, 182);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(265, 28);
+            comboBox1.Size = new Size(298, 29);
             comboBox1.TabIndex = 2;
             // 
             // Form_QLNhanVien
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1136, 532);
+            ClientSize = new Size(1188, 692);
             Controls.Add(comboBox1);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
