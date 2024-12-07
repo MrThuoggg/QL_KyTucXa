@@ -16,5 +16,15 @@ namespace QL_KyTucXa.GUI
         {
             InitializeComponent();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form_DKPhong_Load(object sender, EventArgs e)
+        {
+            /*aaaaaaaa*/
+        }
     }
 }
