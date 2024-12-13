@@ -94,7 +94,7 @@ namespace QL_KyTucXa.GUI
             txttenphong.Text= dgdanhsach.CurrentRow.Cells[1].Value.ToString();
             cbtinhtrang.SelectedValue= dgdanhsach.CurrentRow.Cells[2].Value.ToString();
             txtsoluong.Text= dgdanhsach.CurrentRow.Cells[3].Value.ToString();
-            txtgiaphong.Text= dgdanhsach.CurrentRow.Cells[4].Value.ToString();
+            txtgiaphong.Text = dgdanhsach.CurrentRow.Cells[4].Value.ToString();
         }
     }
 }
