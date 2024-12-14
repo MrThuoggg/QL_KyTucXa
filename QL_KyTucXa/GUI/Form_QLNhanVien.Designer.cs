@@ -39,6 +39,8 @@
             button3 = new Button();
             dataGridView1 = new DataGridView();
             button4 = new Button();
+            label1 = new Label();
+            groupBox2 = new GroupBox();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -53,7 +55,7 @@
             groupBox1.Font = new Font("Cambria", 13.8F, FontStyle.Bold);
             groupBox1.Location = new Point(895, 37);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(227, 348);
+            groupBox1.Size = new Size(228, 367);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "CHỨC NĂNG";
@@ -103,11 +105,33 @@
             button4.Text = "XÓA";
             button4.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cambria", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(436, 26);
+            label1.Name = "label1";
+            label1.Size = new Size(275, 33);
+            label1.TabIndex = 5;
+            label1.Text = "QUẢN LÝ NHÂN VIÊN";
+            // 
+            // groupBox2
+            // 
+            groupBox2.Font = new Font("Cambria", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox2.Location = new Point(63, 80);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(834, 270);
+            groupBox2.TabIndex = 6;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "THÔNG TIN";
+            // 
             // Form_QLNhanVien
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1188, 692);
+            Controls.Add(groupBox2);
+            Controls.Add(label1);
             Controls.Add(dataGridView1);
             Controls.Add(groupBox1);
             Name = "Form_QLNhanVien";
@@ -117,6 +141,7 @@
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -131,5 +156,7 @@
         private Button button3;
         private DataGridView dataGridView1;
         private Button button4;
+        private Label label1;
+        private GroupBox groupBox2;
     }
 }

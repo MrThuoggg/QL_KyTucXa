@@ -46,91 +46,93 @@
             cbtinhtrang = new ComboBox();
             btghi = new Button();
             groupBox1 = new GroupBox();
+            groupBox2 = new GroupBox();
             ((System.ComponentModel.ISupportInitialize)dgdanhsach).BeginInit();
             groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(462, 30);
+            label1.Font = new Font("Cambria", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(436, 26);
             label1.Name = "label1";
-            label1.Size = new Size(176, 28);
+            label1.Size = new Size(223, 33);
             label1.TabIndex = 0;
             label1.Text = "QUẢN LÝ PHÒNG";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(91, 114);
+            label2.Location = new Point(5, 69);
             label2.Name = "label2";
-            label2.Size = new Size(84, 21);
+            label2.Size = new Size(121, 27);
             label2.TabIndex = 0;
             label2.Text = "Mã phòng:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(91, 177);
+            label3.Location = new Point(5, 132);
             label3.Name = "label3";
-            label3.Size = new Size(85, 21);
+            label3.Size = new Size(130, 27);
             label3.TabIndex = 0;
             label3.Text = "Tên phòng:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(91, 245);
+            label4.Location = new Point(5, 200);
             label4.Name = "label4";
-            label4.Size = new Size(81, 21);
+            label4.Size = new Size(124, 27);
             label4.TabIndex = 0;
             label4.Text = "Tình trạng";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(41, 303);
+            label5.Location = new Point(431, 69);
             label5.Name = "label5";
-            label5.Size = new Size(142, 21);
+            label5.Size = new Size(144, 27);
             label5.TabIndex = 0;
-            label5.Text = "Số lượng sinh viên:";
+            label5.Text = "Số lượng SV:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(41, 366);
+            label7.Location = new Point(431, 132);
             label7.Name = "label7";
-            label7.Size = new Size(85, 21);
+            label7.Size = new Size(124, 27);
             label7.TabIndex = 0;
             label7.Text = "Giá phòng:";
             // 
             // txtmaphong
             // 
-            txtmaphong.Location = new Point(194, 111);
+            txtmaphong.Location = new Point(135, 66);
             txtmaphong.Name = "txtmaphong";
-            txtmaphong.Size = new Size(268, 29);
+            txtmaphong.Size = new Size(241, 34);
             txtmaphong.TabIndex = 1;
             // 
             // txttenphong
             // 
-            txttenphong.Location = new Point(194, 174);
+            txttenphong.Location = new Point(135, 129);
             txttenphong.Name = "txttenphong";
-            txttenphong.Size = new Size(268, 29);
+            txttenphong.Size = new Size(241, 34);
             txttenphong.TabIndex = 1;
             // 
             // txtgiaphong
             // 
-            txtgiaphong.Location = new Point(194, 363);
+            txtgiaphong.Location = new Point(585, 132);
             txtgiaphong.Name = "txtgiaphong";
-            txtgiaphong.Size = new Size(268, 29);
+            txtgiaphong.Size = new Size(241, 34);
             txtgiaphong.TabIndex = 1;
             // 
             // txtsoluong
             // 
-            txtsoluong.Location = new Point(194, 300);
+            txtsoluong.Location = new Point(585, 69);
             txtsoluong.Name = "txtsoluong";
-            txtsoluong.Size = new Size(268, 29);
+            txtsoluong.Size = new Size(241, 34);
             txtsoluong.TabIndex = 1;
             // 
             // dgdanhsach
@@ -186,9 +188,9 @@
             // cbtinhtrang
             // 
             cbtinhtrang.FormattingEnabled = true;
-            cbtinhtrang.Location = new Point(194, 241);
+            cbtinhtrang.Location = new Point(135, 196);
             cbtinhtrang.Name = "cbtinhtrang";
-            cbtinhtrang.Size = new Size(268, 29);
+            cbtinhtrang.Size = new Size(241, 35);
             cbtinhtrang.TabIndex = 4;
             // 
             // btghi
@@ -216,29 +218,42 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "CHỨC NĂNG";
             // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(txtgiaphong);
+            groupBox2.Controls.Add(label2);
+            groupBox2.Controls.Add(cbtinhtrang);
+            groupBox2.Controls.Add(label3);
+            groupBox2.Controls.Add(label4);
+            groupBox2.Controls.Add(txtsoluong);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Controls.Add(label7);
+            groupBox2.Controls.Add(txttenphong);
+            groupBox2.Controls.Add(txtmaphong);
+            groupBox2.Font = new Font("Cambria", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox2.Location = new Point(63, 80);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(834, 270);
+            groupBox2.TabIndex = 7;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "THÔNG TIN";
+            // 
             // Form_QLPhong
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1188, 692);
+            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Controls.Add(cbtinhtrang);
             Controls.Add(dgdanhsach);
-            Controls.Add(txtsoluong);
-            Controls.Add(txtgiaphong);
-            Controls.Add(txttenphong);
-            Controls.Add(txtmaphong);
-            Controls.Add(label7);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form_QLPhong";
             Text = "Form_QLPhong";
             Load += Form_QLPhong_Load;
             ((System.ComponentModel.ISupportInitialize)dgdanhsach).EndInit();
             groupBox1.ResumeLayout(false);
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -263,5 +278,6 @@
         private ComboBox cbtinhtrang;
         private Button btghi;
         private GroupBox groupBox1;
+        private GroupBox groupBox2;
     }
 }

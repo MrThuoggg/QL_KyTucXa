@@ -68,7 +68,7 @@
             groupBox2.Size = new Size(313, 517);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "QUẢN LÍ";
+            groupBox2.Text = "QUẢN LÝ";
             // 
             // button1
             // 
@@ -104,7 +104,7 @@
             button4.Name = "button4";
             button4.Size = new Size(222, 130);
             button4.TabIndex = 3;
-            button4.Text = "QUẢN LÍ NHÂN VIÊN";
+            button4.Text = "QUẢN LÝ NHÂN VIÊN";
             button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -113,7 +113,7 @@
             button5.Name = "button5";
             button5.Size = new Size(222, 130);
             button5.TabIndex = 4;
-            button5.Text = "QUẢN LÍ PHÒNG";
+            button5.Text = "QUẢN LÝ PHÒNG";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -122,7 +122,7 @@
             button6.Name = "button6";
             button6.Size = new Size(222, 130);
             button6.TabIndex = 5;
-            button6.Text = "QUẢN LÍ SINH VIÊN";
+            button6.Text = "QUẢN LÝ SINH VIÊN";
             button6.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
