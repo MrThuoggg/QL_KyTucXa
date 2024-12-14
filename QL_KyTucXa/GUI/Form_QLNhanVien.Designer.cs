@@ -32,55 +32,91 @@
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             bindingSource1 = new BindingSource(components);
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
             colorDialog1 = new ColorDialog();
-            comboBox1 = new ComboBox();
+            groupBox1 = new GroupBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            dataGridView1 = new DataGridView();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // checkBox1
+            // groupBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(277, 129);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(105, 25);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            groupBox1.Controls.Add(button4);
+            groupBox1.Controls.Add(button3);
+            groupBox1.Controls.Add(button2);
+            groupBox1.Controls.Add(button1);
+            groupBox1.Font = new Font("Cambria", 13.8F, FontStyle.Bold);
+            groupBox1.Location = new Point(895, 37);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(227, 348);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "CHỨC NĂNG";
             // 
-            // checkBox2
+            // button1
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(277, 186);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(105, 25);
-            checkBox2.TabIndex = 1;
-            checkBox2.Text = "checkBox2";
-            checkBox2.UseVisualStyleBackColor = true;
+            button1.Location = new Point(42, 28);
+            button1.Name = "button1";
+            button1.Size = new Size(145, 60);
+            button1.TabIndex = 1;
+            button1.Text = "THÊM";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // button2
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(436, 182);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(298, 29);
-            comboBox1.TabIndex = 2;
+            button2.Location = new Point(42, 104);
+            button2.Name = "button2";
+            button2.Size = new Size(145, 60);
+            button2.TabIndex = 2;
+            button2.Text = "CẬP NHẬT";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(42, 184);
+            button3.Name = "button3";
+            button3.Size = new Size(145, 60);
+            button3.TabIndex = 3;
+            button3.Text = "XÓA";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(63, 421);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(1059, 222);
+            dataGridView1.TabIndex = 5;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(42, 267);
+            button4.Name = "button4";
+            button4.Size = new Size(145, 60);
+            button4.TabIndex = 4;
+            button4.Text = "XÓA";
+            button4.UseVisualStyleBackColor = true;
             // 
             // Form_QLNhanVien
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1188, 692);
-            Controls.Add(comboBox1);
-            Controls.Add(checkBox2);
-            Controls.Add(checkBox1);
+            Controls.Add(dataGridView1);
+            Controls.Add(groupBox1);
             Name = "Form_QLNhanVien";
             Text = "Form_QLNhanVien";
             Load += Form_QLNhanVien_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
+            groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -88,9 +124,12 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private BindingSource bindingSource1;
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
         private ColorDialog colorDialog1;
-        private ComboBox comboBox1;
+        private GroupBox groupBox1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private DataGridView dataGridView1;
+        private Button button4;
     }
 }
